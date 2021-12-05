@@ -1,9 +1,9 @@
-# Fabric Example Mod
+# DiscordMinecraft Linker
 
-## Setup
+## Purpose of this mod
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+This mod makes a link between the Discord Chat and the Minecraft Chat. It's meant to be used on a Minecraft Server, but it also works on a simple Minecraft Client. To use this mod, you will need a Discord Bot Token, and the channel ID of the server you want the bot to send messages to.
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This mod is under the MIT License.
