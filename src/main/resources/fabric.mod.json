@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "discordmc-lnk",
+  "version": "${version}",
+
+  "name": "DiscordMinecraftLinker",
+  "description": "This mod makes a chat link between Minecraft and Discord.",
+  "authors": [
+    "ElMaxon"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/discordmc-lnk/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.mwon.discordminecraftlinker.DiscordMinecraftLinker"
+    ]
+  },
+  "mixins": [
+    "discordmc-lnk.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
