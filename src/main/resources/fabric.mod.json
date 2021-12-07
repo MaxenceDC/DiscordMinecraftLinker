@@ -9,11 +9,11 @@
     "ElMaxon"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://mwon.me/",
+    "sources": "https://github.com/ElMaxonDSCRD/DiscordMinecraftLinker"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/discordmc-lnk/icon.png",
 
   "environment": "*",
@@ -33,6 +33,5 @@
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }

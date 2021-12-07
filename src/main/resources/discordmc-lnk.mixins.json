@@ -4,9 +4,8 @@
   "package": "me.mwon.discordminecraftlinker.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-  ],
-  "client": [
-    "InterceptChatMessages"
+    "InterceptChatMessages",
+    "InterceptNetworkMessages"
   ],
   "injectors": {
     "defaultRequire": 1
